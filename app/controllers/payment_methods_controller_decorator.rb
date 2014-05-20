@@ -1,5 +1,5 @@
 #encoding: utf-8
-Admin::PaymentMethodsController.class_eval do
+Spree::Admin::PaymentMethodsController.class_eval do
 	before_filter :check_onpay_edit	
 	
 	def edit

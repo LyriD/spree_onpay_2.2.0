@@ -1,5 +1,5 @@
 #encoding: utf-8
-CheckoutController.class_eval do
+Spree::CheckoutController.class_eval do
   before_filter :redirect_to_onpay, :only => :update
 
   private
